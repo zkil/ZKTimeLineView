@@ -41,7 +41,7 @@ lineView.currentIndex = 2;
 ### 自定义方法
 1.自定义一个 `UICollectionViewCell` ,可添加约束  
 2.创建一个类继承 `ZKTimeLineView`  
-3.重新方法
+3.重新方法  
 `- (instancetype)initWithFrame:(CGRect)frame`
 并设置使用的cell
 `[self registerNib:[UINib nibWithNibName:@"ZKTimeLineCell" bundle:nil] forCellWithReuseIdentifier:@"ZKTimeLineCell"];`  
