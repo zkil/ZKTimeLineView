@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380E61EB1EE7D99E00262226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E61EA1EE7D99E00262226 /* main.m */; };
+		380E61EE1EE7D99E00262226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E61ED1EE7D99E00262226 /* AppDelegate.m */; };
+		380E61F11EE7D99E00262226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E61F01EE7D99E00262226 /* ViewController.m */; };
+		380E61F41EE7D99E00262226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380E61F21EE7D99E00262226 /* Main.storyboard */; };
+		380E61F61EE7D99E00262226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380E61F51EE7D99E00262226 /* Assets.xcassets */; };
+		380E61F91EE7D99E00262226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380E61F71EE7D99E00262226 /* LaunchScreen.storyboard */; };
+		380E62041EE7D99E00262226 /* ZKTimeLineViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E62031EE7D99E00262226 /* ZKTimeLineViewTests.m */; };
+		380E620F1EE7D99E00262226 /* ZKTimeLineViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 380E620E1EE7D99E00262226 /* ZKTimeLineViewUITests.m */; };
+		38E314051F42D9D900FF7E00 /* bg_number_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313EF1F42D9D900FF7E00 /* bg_number_grey@2x.png */; };
+		38E314061F42D9D900FF7E00 /* bg_number_grey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F01F42D9D900FF7E00 /* bg_number_grey@3x.png */; };
+		38E314071F42D9D900FF7E00 /* btn_next_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F11F42D9D900FF7E00 /* btn_next_bg@2x.png */; };
+		38E314081F42D9D900FF7E00 /* btn_next_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F21F42D9D900FF7E00 /* btn_next_bg@3x.png */; };
+		38E314091F42D9D900FF7E00 /* btn_reset_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F31F42D9D900FF7E00 /* btn_reset_bg@2x.png */; };
+		38E3140A1F42D9D900FF7E00 /* btn_reset_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F41F42D9D900FF7E00 /* btn_reset_bg@3x.png */; };
+		38E3140B1F42D9D900FF7E00 /* icon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F51F42D9D900FF7E00 /* icon_back@2x.png */; };
+		38E3140C1F42D9D900FF7E00 /* icon_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F61F42D9D900FF7E00 /* icon_back@3x.png */; };
+		38E3140D1F42D9D900FF7E00 /* icon_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F71F42D9D900FF7E00 /* icon_check@2x.png */; };
+		38E3140E1F42D9D900FF7E00 /* icon_check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F81F42D9D900FF7E00 /* icon_check@3x.png */; };
+		38E3140F1F42D9D900FF7E00 /* icon_finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313F91F42D9D900FF7E00 /* icon_finish@2x.png */; };
+		38E314101F42D9D900FF7E00 /* icon_finish@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313FA1F42D9D900FF7E00 /* icon_finish@3x.png */; };
+		38E314111F42D9D900FF7E00 /* xiantiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313FB1F42D9D900FF7E00 /* xiantiao@2x.png */; };
+		38E314121F42D9D900FF7E00 /* xiantiao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E313FC1F42D9D900FF7E00 /* xiantiao@3x.png */; };
+		38E314131F42D9D900FF7E00 /* ZKTimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E313FE1F42D9D900FF7E00 /* ZKTimeLineCell.m */; };
+		38E314141F42D9D900FF7E00 /* ZKTimeLineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E313FF1F42D9D900FF7E00 /* ZKTimeLineCell.xib */; };
+		38E314151F42D9D900FF7E00 /* ZKTimeLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E314021F42D9D900FF7E00 /* ZKTimeLineLayout.m */; };
+		38E314161F42D9D900FF7E00 /* ZKTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E314041F42D9D900FF7E00 /* ZKTimeLineView.m */; };
+		C8EC46E65F6234EFBB2F51F4 /* Pods_ZKTimeLineView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B84F92C9EF8F776E48450B /* Pods_ZKTimeLineView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		380E62001EE7D99E00262226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 380E61DE1EE7D99E00262226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 380E61E51EE7D99E00262226;
+			remoteInfo = ZKTimeLineView;
+		};
+		380E620B1EE7D99E00262226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 380E61DE1EE7D99E00262226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 380E61E51EE7D99E00262226;
+			remoteInfo = ZKTimeLineView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		380E61E61EE7D99E00262226 /* ZKTimeLineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKTimeLineView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		380E61EA1EE7D99E00262226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		380E61EC1EE7D99E00262226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		380E61ED1EE7D99E00262226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		380E61EF1EE7D99E00262226 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		380E61F01EE7D99E00262226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		380E61F31EE7D99E00262226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		380E61F51EE7D99E00262226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		380E61F81EE7D99E00262226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		380E61FA1EE7D99E00262226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380E61FF1EE7D99E00262226 /* ZKTimeLineViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKTimeLineViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		380E62031EE7D99E00262226 /* ZKTimeLineViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKTimeLineViewTests.m; sourceTree = "<group>"; };
+		380E62051EE7D99E00262226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380E620A1EE7D99E00262226 /* ZKTimeLineViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKTimeLineViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		380E620E1EE7D99E00262226 /* ZKTimeLineViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKTimeLineViewUITests.m; sourceTree = "<group>"; };
+		380E62101EE7D99E00262226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380E62201EE7DD8B00262226 /* bg_number_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_number_grey@2x.png"; sourceTree = "<group>"; };
+		380E62211EE7DD8B00262226 /* bg_number_grey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_number_grey@3x.png"; sourceTree = "<group>"; };
+		380E62221EE7DD8B00262226 /* btn_next_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next_bg@2x.png"; sourceTree = "<group>"; };
+		380E62231EE7DD8B00262226 /* btn_next_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next_bg@3x.png"; sourceTree = "<group>"; };
+		380E62241EE7DD8B00262226 /* btn_reset_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_reset_bg@2x.png"; sourceTree = "<group>"; };
+		380E62251EE7DD8B00262226 /* btn_reset_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_reset_bg@3x.png"; sourceTree = "<group>"; };
+		380E62261EE7DD8B00262226 /* icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@2x.png"; sourceTree = "<group>"; };
+		380E62271EE7DD8B00262226 /* icon_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@3x.png"; sourceTree = "<group>"; };
+		380E62281EE7DD8B00262226 /* icon_check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_check@2x.png"; sourceTree = "<group>"; };
+		380E62291EE7DD8B00262226 /* icon_check@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_check@3x.png"; sourceTree = "<group>"; };
+		380E622A1EE7DD8B00262226 /* icon_finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_finish@2x.png"; sourceTree = "<group>"; };
+		380E622B1EE7DD8B00262226 /* icon_finish@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_finish@3x.png"; sourceTree = "<group>"; };
+		380E622C1EE7DD8B00262226 /* xiantiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiantiao@2x.png"; sourceTree = "<group>"; };
+		380E622D1EE7DD8B00262226 /* xiantiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiantiao@3x.png"; sourceTree = "<group>"; };
+		38E313EF1F42D9D900FF7E00 /* bg_number_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_number_grey@2x.png"; sourceTree = "<group>"; };
+		38E313F01F42D9D900FF7E00 /* bg_number_grey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_number_grey@3x.png"; sourceTree = "<group>"; };
+		38E313F11F42D9D900FF7E00 /* btn_next_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next_bg@2x.png"; sourceTree = "<group>"; };
+		38E313F21F42D9D900FF7E00 /* btn_next_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_next_bg@3x.png"; sourceTree = "<group>"; };
+		38E313F31F42D9D900FF7E00 /* btn_reset_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_reset_bg@2x.png"; sourceTree = "<group>"; };
+		38E313F41F42D9D900FF7E00 /* btn_reset_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_reset_bg@3x.png"; sourceTree = "<group>"; };
+		38E313F51F42D9D900FF7E00 /* icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@2x.png"; sourceTree = "<group>"; };
+		38E313F61F42D9D900FF7E00 /* icon_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@3x.png"; sourceTree = "<group>"; };
+		38E313F71F42D9D900FF7E00 /* icon_check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_check@2x.png"; sourceTree = "<group>"; };
+		38E313F81F42D9D900FF7E00 /* icon_check@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_check@3x.png"; sourceTree = "<group>"; };
+		38E313F91F42D9D900FF7E00 /* icon_finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_finish@2x.png"; sourceTree = "<group>"; };
+		38E313FA1F42D9D900FF7E00 /* icon_finish@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_finish@3x.png"; sourceTree = "<group>"; };
+		38E313FB1F42D9D900FF7E00 /* xiantiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiantiao@2x.png"; sourceTree = "<group>"; };
+		38E313FC1F42D9D900FF7E00 /* xiantiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiantiao@3x.png"; sourceTree = "<group>"; };
+		38E313FD1F42D9D900FF7E00 /* ZKTimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKTimeLineCell.h; sourceTree = "<group>"; };
+		38E313FE1F42D9D900FF7E00 /* ZKTimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKTimeLineCell.m; sourceTree = "<group>"; };
+		38E313FF1F42D9D900FF7E00 /* ZKTimeLineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKTimeLineCell.xib; sourceTree = "<group>"; };
+		38E314011F42D9D900FF7E00 /* ZKTimeLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKTimeLineLayout.h; sourceTree = "<group>"; };
+		38E314021F42D9D900FF7E00 /* ZKTimeLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKTimeLineLayout.m; sourceTree = "<group>"; };
+		38E314031F42D9D900FF7E00 /* ZKTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKTimeLineView.h; sourceTree = "<group>"; };
+		38E314041F42D9D900FF7E00 /* ZKTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKTimeLineView.m; sourceTree = "<group>"; };
+		45B84F92C9EF8F776E48450B /* Pods_ZKTimeLineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKTimeLineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5244768926AC3616E26B3F /* Pods-ZKTimeLineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKTimeLineView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKTimeLineView/Pods-ZKTimeLineView.debug.xcconfig"; sourceTree = "<group>"; };
+		EC79854D911C779D1D60CD73 /* Pods-ZKTimeLineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKTimeLineView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKTimeLineView/Pods-ZKTimeLineView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		380E61E31EE7D99E00262226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EC46E65F6234EFBB2F51F4 /* Pods_ZKTimeLineView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380E61FC1EE7D99E00262226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380E62071EE7D99E00262226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380E61DD1EE7D99E00262226 = {
+			isa = PBXGroup;
+			children = (
+				380E61E81EE7D99E00262226 /* ZKTimeLineView */,
+				380E62021EE7D99E00262226 /* ZKTimeLineViewTests */,
+				380E620D1EE7D99E00262226 /* ZKTimeLineViewUITests */,
+				380E61E71EE7D99E00262226 /* Products */,
+				A427D164A6859E85E8E5F5D2 /* Pods */,
+				C9B7D58358434B5AD42287E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		380E61E71EE7D99E00262226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				380E61E61EE7D99E00262226 /* ZKTimeLineView.app */,
+				380E61FF1EE7D99E00262226 /* ZKTimeLineViewTests.xctest */,
+				380E620A1EE7D99E00262226 /* ZKTimeLineViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		380E61E81EE7D99E00262226 /* ZKTimeLineView */ = {
+			isa = PBXGroup;
+			children = (
+				380E61EC1EE7D99E00262226 /* AppDelegate.h */,
+				380E61ED1EE7D99E00262226 /* AppDelegate.m */,
+				380E61EF1EE7D99E00262226 /* ViewController.h */,
+				380E61F01EE7D99E00262226 /* ViewController.m */,
+				380E61F21EE7D99E00262226 /* Main.storyboard */,
+				380E61F51EE7D99E00262226 /* Assets.xcassets */,
+				380E61F71EE7D99E00262226 /* LaunchScreen.storyboard */,
+				380E61FA1EE7D99E00262226 /* Info.plist */,
+				38E313ED1F42D9D900FF7E00 /* ZKTimeLineView */,
+				380E61E91EE7D99E00262226 /* Supporting Files */,
+			);
+			path = ZKTimeLineView;
+			sourceTree = "<group>";
+		};
+		380E61E91EE7D99E00262226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				380E621F1EE7DD8B00262226 /* image */,
+				380E61EA1EE7D99E00262226 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		380E62021EE7D99E00262226 /* ZKTimeLineViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				380E62031EE7D99E00262226 /* ZKTimeLineViewTests.m */,
+				380E62051EE7D99E00262226 /* Info.plist */,
+			);
+			path = ZKTimeLineViewTests;
+			sourceTree = "<group>";
+		};
+		380E620D1EE7D99E00262226 /* ZKTimeLineViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				380E620E1EE7D99E00262226 /* ZKTimeLineViewUITests.m */,
+				380E62101EE7D99E00262226 /* Info.plist */,
+			);
+			path = ZKTimeLineViewUITests;
+			sourceTree = "<group>";
+		};
+		380E621F1EE7DD8B00262226 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				380E62201EE7DD8B00262226 /* bg_number_grey@2x.png */,
+				380E62211EE7DD8B00262226 /* bg_number_grey@3x.png */,
+				380E62221EE7DD8B00262226 /* btn_next_bg@2x.png */,
+				380E62231EE7DD8B00262226 /* btn_next_bg@3x.png */,
+				380E62241EE7DD8B00262226 /* btn_reset_bg@2x.png */,
+				380E62251EE7DD8B00262226 /* btn_reset_bg@3x.png */,
+				380E62261EE7DD8B00262226 /* icon_back@2x.png */,
+				380E62271EE7DD8B00262226 /* icon_back@3x.png */,
+				380E62281EE7DD8B00262226 /* icon_check@2x.png */,
+				380E62291EE7DD8B00262226 /* icon_check@3x.png */,
+				380E622A1EE7DD8B00262226 /* icon_finish@2x.png */,
+				380E622B1EE7DD8B00262226 /* icon_finish@3x.png */,
+				380E622C1EE7DD8B00262226 /* xiantiao@2x.png */,
+				380E622D1EE7DD8B00262226 /* xiantiao@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		38E313ED1F42D9D900FF7E00 /* ZKTimeLineView */ = {
+			isa = PBXGroup;
+			children = (
+				38E313EE1F42D9D900FF7E00 /* image */,
+				38E313FD1F42D9D900FF7E00 /* ZKTimeLineCell.h */,
+				38E313FE1F42D9D900FF7E00 /* ZKTimeLineCell.m */,
+				38E313FF1F42D9D900FF7E00 /* ZKTimeLineCell.xib */,
+				38E314001F42D9D900FF7E00 /* ZKTimeLineLayout */,
+				38E314031F42D9D900FF7E00 /* ZKTimeLineView.h */,
+				38E314041F42D9D900FF7E00 /* ZKTimeLineView.m */,
+			);
+			path = ZKTimeLineView;
+			sourceTree = "<group>";
+		};
+		38E313EE1F42D9D900FF7E00 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				38E313EF1F42D9D900FF7E00 /* bg_number_grey@2x.png */,
+				38E313F01F42D9D900FF7E00 /* bg_number_grey@3x.png */,
+				38E313F11F42D9D900FF7E00 /* btn_next_bg@2x.png */,
+				38E313F21F42D9D900FF7E00 /* btn_next_bg@3x.png */,
+				38E313F31F42D9D900FF7E00 /* btn_reset_bg@2x.png */,
+				38E313F41F42D9D900FF7E00 /* btn_reset_bg@3x.png */,
+				38E313F51F42D9D900FF7E00 /* icon_back@2x.png */,
+				38E313F61F42D9D900FF7E00 /* icon_back@3x.png */,
+				38E313F71F42D9D900FF7E00 /* icon_check@2x.png */,
+				38E313F81F42D9D900FF7E00 /* icon_check@3x.png */,
+				38E313F91F42D9D900FF7E00 /* icon_finish@2x.png */,
+				38E313FA1F42D9D900FF7E00 /* icon_finish@3x.png */,
+				38E313FB1F42D9D900FF7E00 /* xiantiao@2x.png */,
+				38E313FC1F42D9D900FF7E00 /* xiantiao@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		38E314001F42D9D900FF7E00 /* ZKTimeLineLayout */ = {
+			isa = PBXGroup;
+			children = (
+				38E314011F42D9D900FF7E00 /* ZKTimeLineLayout.h */,
+				38E314021F42D9D900FF7E00 /* ZKTimeLineLayout.m */,
+			);
+			path = ZKTimeLineLayout;
+			sourceTree = "<group>";
+		};
+		A427D164A6859E85E8E5F5D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C5244768926AC3616E26B3F /* Pods-ZKTimeLineView.debug.xcconfig */,
+				EC79854D911C779D1D60CD73 /* Pods-ZKTimeLineView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9B7D58358434B5AD42287E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B84F92C9EF8F776E48450B /* Pods_ZKTimeLineView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		380E61E51EE7D99E00262226 /* ZKTimeLineView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380E62131EE7D99F00262226 /* Build configuration list for PBXNativeTarget "ZKTimeLineView" */;
+			buildPhases = (
+				6BC06115BB033B0F513E0ACF /* [CP] Check Pods Manifest.lock */,
+				380E61E21EE7D99E00262226 /* Sources */,
+				380E61E31EE7D99E00262226 /* Frameworks */,
+				380E61E41EE7D99E00262226 /* Resources */,
+				0F072E3D07464BD80EC2F8BD /* [CP] Embed Pods Frameworks */,
+				5576257B480B6F2A457A70B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKTimeLineView;
+			productName = ZKTimeLineView;
+			productReference = 380E61E61EE7D99E00262226 /* ZKTimeLineView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		380E61FE1EE7D99E00262226 /* ZKTimeLineViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380E62161EE7D99F00262226 /* Build configuration list for PBXNativeTarget "ZKTimeLineViewTests" */;
+			buildPhases = (
+				380E61FB1EE7D99E00262226 /* Sources */,
+				380E61FC1EE7D99E00262226 /* Frameworks */,
+				380E61FD1EE7D99E00262226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				380E62011EE7D99E00262226 /* PBXTargetDependency */,
+			);
+			name = ZKTimeLineViewTests;
+			productName = ZKTimeLineViewTests;
+			productReference = 380E61FF1EE7D99E00262226 /* ZKTimeLineViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		380E62091EE7D99E00262226 /* ZKTimeLineViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380E62191EE7D99F00262226 /* Build configuration list for PBXNativeTarget "ZKTimeLineViewUITests" */;
+			buildPhases = (
+				380E62061EE7D99E00262226 /* Sources */,
+				380E62071EE7D99E00262226 /* Frameworks */,
+				380E62081EE7D99E00262226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				380E620C1EE7D99E00262226 /* PBXTargetDependency */,
+			);
+			name = ZKTimeLineViewUITests;
+			productName = ZKTimeLineViewUITests;
+			productReference = 380E620A1EE7D99E00262226 /* ZKTimeLineViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		380E61DE1EE7D99E00262226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zk;
+				TargetAttributes = {
+					380E61E51EE7D99E00262226 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C2Y8Q3RAAW;
+						ProvisioningStyle = Automatic;
+					};
+					380E61FE1EE7D99E00262226 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 380E61E51EE7D99E00262226;
+					};
+					380E62091EE7D99E00262226 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 380E61E51EE7D99E00262226;
+					};
+				};
+			};
+			buildConfigurationList = 380E61E11EE7D99E00262226 /* Build configuration list for PBXProject "ZKTimeLineView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 380E61DD1EE7D99E00262226;
+			productRefGroup = 380E61E71EE7D99E00262226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				380E61E51EE7D99E00262226 /* ZKTimeLineView */,
+				380E61FE1EE7D99E00262226 /* ZKTimeLineViewTests */,
+				380E62091EE7D99E00262226 /* ZKTimeLineViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		380E61E41EE7D99E00262226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E3140D1F42D9D900FF7E00 /* icon_check@2x.png in Resources */,
+				38E314081F42D9D900FF7E00 /* btn_next_bg@3x.png in Resources */,
+				38E314101F42D9D900FF7E00 /* icon_finish@3x.png in Resources */,
+				38E3140A1F42D9D900FF7E00 /* btn_reset_bg@3x.png in Resources */,
+				380E61F91EE7D99E00262226 /* LaunchScreen.storyboard in Resources */,
+				380E61F61EE7D99E00262226 /* Assets.xcassets in Resources */,
+				38E314091F42D9D900FF7E00 /* btn_reset_bg@2x.png in Resources */,
+				38E3140E1F42D9D900FF7E00 /* icon_check@3x.png in Resources */,
+				38E3140B1F42D9D900FF7E00 /* icon_back@2x.png in Resources */,
+				38E314111F42D9D900FF7E00 /* xiantiao@2x.png in Resources */,
+				38E314061F42D9D900FF7E00 /* bg_number_grey@3x.png in Resources */,
+				380E61F41EE7D99E00262226 /* Main.storyboard in Resources */,
+				38E3140C1F42D9D900FF7E00 /* icon_back@3x.png in Resources */,
+				38E314121F42D9D900FF7E00 /* xiantiao@3x.png in Resources */,
+				38E314051F42D9D900FF7E00 /* bg_number_grey@2x.png in Resources */,
+				38E3140F1F42D9D900FF7E00 /* icon_finish@2x.png in Resources */,
+				38E314071F42D9D900FF7E00 /* btn_next_bg@2x.png in Resources */,
+				38E314141F42D9D900FF7E00 /* ZKTimeLineCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380E61FD1EE7D99E00262226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380E62081EE7D99E00262226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F072E3D07464BD80EC2F8BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKTimeLineView/Pods-ZKTimeLineView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5576257B480B6F2A457A70B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZKTimeLineView/Pods-ZKTimeLineView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC06115BB033B0F513E0ACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		380E61E21EE7D99E00262226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380E61F11EE7D99E00262226 /* ViewController.m in Sources */,
+				380E61EE1EE7D99E00262226 /* AppDelegate.m in Sources */,
+				38E314161F42D9D900FF7E00 /* ZKTimeLineView.m in Sources */,
+				380E61EB1EE7D99E00262226 /* main.m in Sources */,
+				38E314151F42D9D900FF7E00 /* ZKTimeLineLayout.m in Sources */,
+				38E314131F42D9D900FF7E00 /* ZKTimeLineCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380E61FB1EE7D99E00262226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380E62041EE7D99E00262226 /* ZKTimeLineViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380E62061EE7D99E00262226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380E620F1EE7D99E00262226 /* ZKTimeLineViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		380E62011EE7D99E00262226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 380E61E51EE7D99E00262226 /* ZKTimeLineView */;
+			targetProxy = 380E62001EE7D99E00262226 /* PBXContainerItemProxy */;
+		};
+		380E620C1EE7D99E00262226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 380E61E51EE7D99E00262226 /* ZKTimeLineView */;
+			targetProxy = 380E620B1EE7D99E00262226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		380E61F21EE7D99E00262226 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380E61F31EE7D99E00262226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		380E61F71EE7D99E00262226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				380E61F81EE7D99E00262226 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		380E62111EE7D99F00262226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		380E62121EE7D99F00262226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		380E62141EE7D99F00262226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5244768926AC3616E26B3F /* Pods-ZKTimeLineView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = ZKTimeLineView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKTimeLineView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		380E62151EE7D99F00262226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC79854D911C779D1D60CD73 /* Pods-ZKTimeLineView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = ZKTimeLineView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKTimeLineView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		380E62171EE7D99F00262226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKTimeLineViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKTimeLineViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKTimeLineView.app/ZKTimeLineView";
+			};
+			name = Debug;
+		};
+		380E62181EE7D99F00262226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKTimeLineViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKTimeLineViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKTimeLineView.app/ZKTimeLineView";
+			};
+			name = Release;
+		};
+		380E621A1EE7D99F00262226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKTimeLineViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKTimeLineViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKTimeLineView;
+			};
+			name = Debug;
+		};
+		380E621B1EE7D99F00262226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKTimeLineViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.ZKTimeLineViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKTimeLineView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		380E61E11EE7D99E00262226 /* Build configuration list for PBXProject "ZKTimeLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380E62111EE7D99F00262226 /* Debug */,
+				380E62121EE7D99F00262226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380E62131EE7D99F00262226 /* Build configuration list for PBXNativeTarget "ZKTimeLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380E62141EE7D99F00262226 /* Debug */,
+				380E62151EE7D99F00262226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380E62161EE7D99F00262226 /* Build configuration list for PBXNativeTarget "ZKTimeLineViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380E62171EE7D99F00262226 /* Debug */,
+				380E62181EE7D99F00262226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380E62191EE7D99F00262226 /* Build configuration list for PBXNativeTarget "ZKTimeLineViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380E621A1EE7D99F00262226 /* Debug */,
+				380E621B1EE7D99F00262226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 380E61DE1EE7D99E00262226 /* Project object */;
+}
